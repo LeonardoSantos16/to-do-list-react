@@ -1,11 +1,11 @@
 .menuNote{
     margin: 0 auto;
     display: flex;
-    gap: 12px;
-    width: 736px;
-    border-radius: 8px;
-    height: 72px;
-    padding: 16px;
+    gap: 1.2rem;
+    width: 73.6rem;
+    border-radius: .8rem;
+    height: 7.2rem;
+    padding: 1.6rem;
     background-color: var(--gray-500);
     align-items: flex-start;
     border: 1px solid #333333 ;
@@ -33,17 +33,17 @@
         color: var(--danger);
     }
     p{
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 140%;
         color: var(--gray-100);
-        width: 632px;
+        width: 63.2rem;
   
     }
     .lineCheck{
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 140%;
         color: var(--gray-300);
-        width: 632px;
+        width: 63.2rem;
         text-decoration: line-through;
     }
     
