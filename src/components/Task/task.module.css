@@ -1,0 +1,55 @@
+.menuNote{
+    margin: 0 auto;
+    display: flex;
+    gap: 12px;
+    width: 736px;
+    border-radius: 8px;
+    height: 72px;
+    padding: 16px;
+    background-color: var(--gray-500);
+    align-items: flex-start;
+    border: 1px solid #333333 ;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    justify-content: center;
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .buttonCheck{
+        color: var(--blue);
+    } 
+
+    .buttonCheck:hover{
+        color: var(--blue-dark);
+    } 
+
+    .buttonTrash{
+        color: var(--gray-300);
+    }
+
+    .buttonTrash:hover{
+        color: var(--danger);
+    }
+    p{
+        font-size: 14px;
+        line-height: 140%;
+        color: var(--gray-100);
+        width: 632px;
+  
+    }
+    .lineCheck{
+        font-size: 14px;
+        line-height: 140%;
+        color: var(--gray-300);
+        width: 632px;
+        text-decoration: line-through;
+    }
+    
+   
+  
+}
+.menuNote + .menuNote{
+    margin-top: 12px;
+}

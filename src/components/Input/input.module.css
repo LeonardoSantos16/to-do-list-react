@@ -1,0 +1,68 @@
+.noteForm{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+    height: 54px;
+    margin-top: -27px;
+
+    button{
+        width: 90px;
+        height: 52px;
+        display: flex;
+        gap: 8px;
+        padding: 17px;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--blue-dark);
+        color: var(--gray-100);
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: var(--blue);
+    }
+
+    input{
+        border: 1px solid var(--gray-700);
+        border-radius: 8px;
+    
+        padding: 16px;
+        background-color: var(--gray-500);
+        color: var(--gray-300);
+        width: 638px;
+    }
+}
+
+.taskDefault{
+    width: 736px;
+    height: 244px;    
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 16px;
+    border-top: 1px solid #333333;
+
+    p{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: var(--gray-300);
+        span{
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+
